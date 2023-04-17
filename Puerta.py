@@ -4,8 +4,14 @@
 from ElementoMapa import ElementoMapa
 
 class Puerta(ElementoMapa):
-    def __init__(self):
-        self.abierta(IsOPen) = None
-        self.lado1 = None
-        self.lado2 = None
+    def __init__(self,lado1,lado2):
+        self.abierta= false
+        self.lado1 = lado1
+        self.lado2 = lado2
+
+    def esPuerta(self):
+        return True
+
+    def estaCerrada(self):
+        return True
 
