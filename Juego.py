@@ -38,6 +38,11 @@ class Juego:
         puerta.lado1=unaHab
         puerta.lado2=otraHab
         return puerta
-
+    def fabricarLaberinto(self):
+        return Laberinto()
+    
+    def fabricarPared(self):
+        return Pared()
+    
 
     pass
