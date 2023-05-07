@@ -9,7 +9,8 @@ class Habitacion(ElementoMapa):
     def esHabitacion(self):
         return True
 
+    def entrar(self):
+        print("Estas en la habitacion", self.num)
 
-    
 
     pass
