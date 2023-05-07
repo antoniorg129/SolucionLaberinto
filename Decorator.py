@@ -5,5 +5,5 @@ from Hoja import Hoja
 
 class Decorator(Hoja):
     def __init__(self):
-        self.activa = None
+        self.component = None
 
