@@ -47,7 +47,7 @@ class Juego:
         self.laberinto.agregarHabitacion(hab1)
         self.laberinto.agregarHabitacion(hab2)
 
-        def laberinto4Hab(self):
+    def laberinto4Hab(self):
         laberinto = self.fabricarLaberinto()
         
         hab1 = self.fabricarHabitacion(1)
