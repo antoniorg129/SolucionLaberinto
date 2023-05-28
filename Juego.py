@@ -123,6 +123,16 @@ class Juego:
     def obtenerHabitacion(self, unNum):
         return self.laberinto.obtenerHabitacion(unNum)
 
+    def numeroHabitaciones(self):
+        return self.laberinto.numeroHabitaciones()
 
+    def desactivarBombas(self):
+        for elemento in self.laberinto.hijos:
+            if elemento.esBomba:
+                elemento.desactivar()
+    def activarBombas(self):
+        for elemento in self.laberinto.hijos:
+            if elemento.esBomba:
+                elemento.activar()
 
     pass

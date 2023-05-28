@@ -5,6 +5,7 @@ from ElementoMapa import ElementoMapa
 
 class Habitacion(ElementoMapa):
     def __init__(self):
+        self.num=None
         
     def esHabitacion(self):
         return True
